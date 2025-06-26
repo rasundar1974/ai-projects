@@ -1,0 +1,39 @@
+ToDoApp – User Documentation
+
+Overview
+--------
+ToDoApp is a simple command-line to-do list application written in Java. It allows you to add, list, and delete tasks, all managed in memory.
+
+How to Run
+----------
+1. Compile the program:
+   javac TodoApp.java
+2. Run the program:
+   java TodoApp
+
+Commands
+--------
+- add <task description>
+  Adds a new task to your to-do list.
+  Example:
+    add Buy groceries
+
+- list
+  Displays all current tasks with their numbers.
+  Example output:
+    1. Buy groceries
+    2. Call Alice
+
+- delete <task number>
+  Deletes the task with the given number (as shown in the list).
+  Example:
+    delete 2
+  If the number is invalid, you will see an error message.
+
+- exit
+  Exits the application.
+
+Notes
+-----
+- Tasks are stored in memory only. When you exit the app, your tasks will be lost.
+- If you enter an unknown command, the app will notify you.
